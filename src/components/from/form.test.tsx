@@ -15,6 +15,9 @@ describe("From", () => {
     });
     expect(pageSubHeading).toBeInTheDocument();
 
+    const paragraphElement = screen.getByText("All fields are required");
+    expect(paragraphElement).toBeInTheDocument();
+
     const nameElement = screen.getByRole("textbox", {
       name: "Name",
     });

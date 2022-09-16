@@ -3,6 +3,7 @@ const Form = () => {
     <>
       <h1>Admission Form</h1>
       <h2>Step - 1</h2>
+      <p>All fields are required</p>
       <form>
         <div>
           <label htmlFor="name">Name</label>
