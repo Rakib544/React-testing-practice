@@ -6,7 +6,7 @@ const Form = () => {
       <form>
         <div>
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" />
+          <input type="text" id="name" placeholder="fullName" />
         </div>
         <div>
           <label htmlFor="bio">Bio</label>
