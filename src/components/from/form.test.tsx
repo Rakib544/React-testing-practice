@@ -18,6 +18,9 @@ describe("From", () => {
     const paragraphElement = screen.getByText("All fields are required");
     expect(paragraphElement).toBeInTheDocument();
 
+    const imageElement = screen.getByAltText("a person with a laptop");
+    expect(imageElement).toBeInTheDocument();
+
     const nameElement = screen.getByRole("textbox", {
       name: "Name",
     });
