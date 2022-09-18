@@ -3,6 +3,7 @@ const Form = () => {
     <>
       <h1>Admission Form</h1>
       <h2>Step - 1</h2>
+      <h3>Rakib</h3>
       <p>All fields are required</p>
       <img src="https://via.placeholder.com/150" alt="a person with a laptop" />
       <form>
