@@ -15,12 +15,6 @@ describe("From", () => {
     });
     expect(pageSubHeading).toBeInTheDocument();
 
-    const headingElementH3 = screen.getByRole("heading", {
-      level: 3,
-    });
-
-    expect(headingElementH3).toBeInTheDocument();
-
     const paragraphElement = screen.getByText("All fields are required");
     expect(paragraphElement).toBeInTheDocument();
 
