@@ -51,7 +51,7 @@ describe("From", () => {
     );
     expect(termsElement2).toBeInTheDocument();
 
-    const buttonElement = screen.getByRole("button");
-    expect(buttonElement).toBeInTheDocument();
+    // const buttonElement = screen.getByRole("button");
+    // expect(buttonElement).toBeInTheDocument();
   });
 });
